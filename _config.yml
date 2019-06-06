@@ -1,0 +1,14 @@
+---
+title: Tory Education Report Card
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+plugins:
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-seo-tag
