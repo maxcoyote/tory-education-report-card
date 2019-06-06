@@ -8,3 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
