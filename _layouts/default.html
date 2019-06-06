@@ -3,12 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="https://use.typekit.net/tyf5dcc.css">
     <link rel="stylesheet" href="/assets/css/styles.css">
     {% feed_meta %}
     {% seo %}
+    <script src="https://kit.fontawesome.com/b705d645aa.js"></script>
   </head>
-  <body>
-    {% include navigation.html %}
+  <body class="{{ page.title | downcase }}">
     {{ content }}
   </body>
+  {% include footer.html %}
 </html>
