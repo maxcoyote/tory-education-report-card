@@ -1,5 +1,8 @@
 *, *::before, *::after {
-  box-sizing: inherit; }
+  box-sizing: border-box; }
+
+html {
+  font-size: 1em; }
 
 body {
   font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
@@ -12,14 +15,32 @@ img {
   height: auto; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: lexia, serif; }
+  font-family: lexia, serif;
+  font-style: normal;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  margin: 1em 0; }
+
+h1 {
+  font-size: 1.875rem; }
+  @media screen and (min-width: 40em) {
+    h1 {
+      font-size: 2rem; } }
+
+p {
+  font-size: .85rem;
+  line-height: 1.5625rem;
+  margin: 0 0 .5em; }
+  @media screen and (min-width: 40em) {
+    p {
+      font-size: 1rem; } }
 
 .title {
   color: #1C2B39;
   font-size: 1.5rem;
+  font-weight: 300;
   line-height: 1.875rem;
-  margin: 3.125rem 0 2.0625rem 0;
-  font-weight: 300; }
+  margin: 3.125rem 0 2.0625rem 0; }
   @media screen and (min-width: 40em) {
     .title {
       font-size: 1.875rem;
@@ -50,7 +71,69 @@ h1, h2, h3, h4, h5, h6 {
   .full-bleed--primary {
     background-color: #004F71; }
 
+.candidates {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: normal;
+  justify-content: center; }
+  .candidates .candidate {
+    text-align: center;
+    width: 100%;
+    margin: 0 0 1em;
+    padding-left: 15px;
+    padding-right: 15px; }
+    @media screen and (min-width: 40em) {
+      .candidates .candidate {
+        flex: 1 0 33.33333%;
+        max-width: 33.33333%; } }
+    .candidates .candidate--inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      width: 100%;
+      height: 100%;
+      padding: 2em 1em 3em;
+      background: #fff;
+      box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+      border-radius: 2px;
+      transition: box-shadow 0.28s cubic-bezier(0.4, 0, 0.2, 1); }
+      .candidates .candidate--inner:hover {
+        box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.04); }
+    .candidates .candidate--img {
+      object-fit: cover;
+      object-position: center center;
+      width: 75px;
+      height: 75px;
+      border-radius: 50%; }
+      @media screen and (min-width: 40em) {
+        .candidates .candidate--img {
+          width: 100px;
+          height: 100px; } }
+    .candidates .candidate--name {
+      font-size: 1.0625rem;
+      line-height: 1.5rem;
+      font-weight: 700;
+      position: relative;
+      padding-bottom: .375rem; }
+      @media screen and (min-width: 40em) {
+        .candidates .candidate--name {
+          font-size: 1.25rem;
+          line-height: 1.6875rem; } }
+      .candidates .candidate--name:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background: #1C2B39; }
+    .candidates .candidate--info-title {
+      font-weight: bold; }
+
 footer {
+  margin-top: 3em;
   background: #1C2B39;
   color: #fff;
   padding: 4.75rem 0 3rem; }
