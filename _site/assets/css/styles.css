@@ -73,13 +73,13 @@ p {
       .title--left-bullet {
         padding-left: 47px; } }
 
-.grid-container {
+.grid-container, .overlay--content {
   padding-left: .9375rem;
   padding-right: .9375rem;
   max-width: 67.5rem;
   margin: 0 auto; }
   @media screen and (min-width: 40em) {
-    .grid-container {
+    .grid-container, .overlay--content {
       padding-left: 1.5625rem;
       padding-right: 1.5625rem; } }
 
@@ -90,6 +90,30 @@ p {
   padding: 2.5rem 0; }
   .full-bleed--primary {
     background-color: #004F71; }
+    .full-bleed--primary h3 {
+      margin-bottom: 1.875rem; }
+    .full-bleed--primary p {
+      color: #fff;
+      font-size: 1.25rem;
+      line-height: 2.125rem;
+      margin-bottom: 2.5rem; }
+
+.share-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .share-buttons h5 {
+    margin: 0 1em; }
+  .share-buttons ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    .share-buttons ul li {
+      display: inline-block;
+      margin-left: .5em;
+      margin-right: .5em; }
+      .share-buttons ul li a {
+        color: #fff; }
 
 .candidates {
   display: flex;
@@ -151,6 +175,37 @@ p {
         background: #1C2B39; }
     .candidates .candidate--info-title {
       font-weight: bold; }
+
+.overlay {
+  position: fixed;
+  background: #1C2B39;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0%;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .35s, visibility .35s, height .35s;
+  overflow: hidden;
+  z-index: 2030; }
+  .overlay.open {
+    opacity: .9;
+    visibility: visible;
+    height: 100%; }
+  .overlay--content {
+    position: relative;
+    height: 70%;
+    top: 50%;
+    transform: translateY(-50%); }
+    .overlay--content h3 {
+      margin-bottom: 1.875rem; }
+    .overlay--content p {
+      color: #fff;
+      font-size: 1.25rem;
+      line-height: 2.125rem;
+      margin-bottom: 2.5rem; }
+    .overlay--content a {
+      color: #fff; }
 
 footer {
   margin-top: 3em;
