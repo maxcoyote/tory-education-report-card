@@ -9,7 +9,7 @@ Field name:
   Questions Text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis
     est mi. Nullam laoreet arcu sed orci aliquet pellentesque. In congue convallis
     velit a porta.
-layout: default
+layout: index
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis est mi. Nullam laoreet arcu sed orci aliquet pellentesque. In congue convallis velit a porta.
