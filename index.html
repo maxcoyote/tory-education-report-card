@@ -24,6 +24,22 @@ title: home
 <div class="grid-container">
   <h3 class="title title--left-bullet"><i class="far fa-arrow-alt-circle-right"></i> Candidates</h3>
   <div class="candidates">
+    {% for candidate in page.candidates %}
+    <div class="candidate">
+      <div class="candidate--inner">
+        <img class="candidate--img" src="/assets/img/michael-gove.jpg">
+        <h4 class="candidate--name"><i class="far fa-address-card"></i> {{ candidate.name }}</h4>
+        <p class="candidate--info-title">Info</p>
+        <p class="candidate--info">{{ candidate.info }}</p>
+      </div>
+    </div>
+    <div class="overlay">
+      <div class="overlay--content">
+        <p>{{ candidate.questions_text | markdownify }}</p>
+        <p><a class="overlay--close" href="#">Close</a></p>
+      </div>
+    </div>
+    {% endfor %}
     <div class="candidate">
       <div class="candidate--inner">
         <img class="candidate--img" src="/assets/img/michael-gove.jpg">
