@@ -42,10 +42,10 @@ candidates:
     New figures released by the End Child Poverty coalition show that half a million more children are having their lives limited by poverty today than at the start of the decade.
 
     Do you agree that it should be the job of government to develop and deliver an ambitious and credible child-poverty reduction strategy?
-- Profile Image: "/uploads/matt-hancock.jpg"
-  Name: Matt Hancock
-  Info: Failed to Respond
-  Questions Text: |-
+- profile image: "/uploads/matt-hancock.jpg"
+  name: Matt Hancock
+  info: Failed to Respond
+  questions text: |-
     **Funding**
 
     The Institute for Fiscal Studies has calculated that total school spending per pupil has fallen by 8% in real terms between 2009–10 and 2017–18. School sixth forms have faced budget cuts of 21% per student since their peak in 2010–11, while further education and sixth-form college funding per student has fallen by about 8% over the same period.
@@ -81,10 +81,10 @@ candidates:
     New figures released by the End Child Poverty coalition show that half a million more children are having their lives limited by poverty today than at the start of the decade.
 
     Do you agree that it should be the job of government to develop and deliver an ambitious and credible child-poverty reduction strategy?
-- Profile Image: "/uploads/mark-harper.jpg"
-  Name: Mark Harper
-  Info: Failed to Respond
-  Questions Text: |-
+- profile image: "/uploads/mark-harper.jpg"
+  name: Mark Harper
+  info: Failed to Respond
+  questions text: |-
     **Funding**
 
     The Institute for Fiscal Studies has calculated that total school spending per pupil has fallen by 8% in real terms between 2009–10 and 2017–18. School sixth forms have faced budget cuts of 21% per student since their peak in 2010–11, while further education and sixth-form college funding per student has fallen by about 8% over the same period.
@@ -120,10 +120,10 @@ candidates:
     New figures released by the End Child Poverty coalition show that half a million more children are having their lives limited by poverty today than at the start of the decade.
 
     Do you agree that it should be the job of government to develop and deliver an ambitious and credible child-poverty reduction strategy?
-- Profile Image: "/uploads/jeremy-hunt.jpg"
-  Name: Jeremy Hunt
-  Info: Failed to Respond
-  Questions Text: |-
+- profile image: "/uploads/jeremy-hunt.jpg"
+  name: Jeremy Hunt
+  info: Failed to Respond
+  questions text: |-
     **Funding**
 
     The Institute for Fiscal Studies has calculated that total school spending per pupil has fallen by 8% in real terms between 2009–10 and 2017–18. School sixth forms have faced budget cuts of 21% per student since their peak in 2010–11, while further education and sixth-form college funding per student has fallen by about 8% over the same period.
@@ -159,10 +159,10 @@ candidates:
     New figures released by the End Child Poverty coalition show that half a million more children are having their lives limited by poverty today than at the start of the decade.
 
     Do you agree that it should be the job of government to develop and deliver an ambitious and credible child-poverty reduction strategy?
-- Profile Image: "/uploads/sajid-javid.jpg"
-  Name: Sajid Javid
-  Info: Failed to Respond
-  Questions Text: |-
+- profile image: "/uploads/sajid-javid.jpg"
+  name: Sajid Javid
+  info: Failed to Respond
+  questions text: |-
     **Funding**
 
     The Institute for Fiscal Studies has calculated that total school spending per pupil has fallen by 8% in real terms between 2009–10 and 2017–18. School sixth forms have faced budget cuts of 21% per student since their peak in 2010–11, while further education and sixth-form college funding per student has fallen by about 8% over the same period.
@@ -198,10 +198,10 @@ candidates:
     New figures released by the End Child Poverty coalition show that half a million more children are having their lives limited by poverty today than at the start of the decade.
 
     Do you agree that it should be the job of government to develop and deliver an ambitious and credible child-poverty reduction strategy?
-- Profile Image: "/uploads/boris-johnson.jpg"
-  Name: Boris Johnson
-  Info: Failed to Respond
-  Questions Text: |-
+- profile image: "/uploads/boris-johnson.jpg"
+  name: Boris Johnson
+  info: Failed to Respond
+  questions text: |-
     **Funding**
 
     The Institute for Fiscal Studies has calculated that total school spending per pupil has fallen by 8% in real terms between 2009–10 and 2017–18. School sixth forms have faced budget cuts of 21% per student since their peak in 2010–11, while further education and sixth-form college funding per student has fallen by about 8% over the same period.
@@ -237,10 +237,10 @@ candidates:
     New figures released by the End Child Poverty coalition show that half a million more children are having their lives limited by poverty today than at the start of the decade.
 
     Do you agree that it should be the job of government to develop and deliver an ambitious and credible child-poverty reduction strategy?
-- Profile Image: "/uploads/andrea-leadsom.jpg"
-  Name: Andrea Leadsom
-  Info: Failed to Respond
-  Questions Text: |-
+- profile image: "/uploads/andrea-leadsom.jpg"
+  name: Andrea Leadsom
+  info: Failed to Respond
+  questions text: |-
     **Funding**
 
     The Institute for Fiscal Studies has calculated that total school spending per pupil has fallen by 8% in real terms between 2009–10 and 2017–18. School sixth forms have faced budget cuts of 21% per student since their peak in 2010–11, while further education and sixth-form college funding per student has fallen by about 8% over the same period.
@@ -276,10 +276,10 @@ candidates:
     New figures released by the End Child Poverty coalition show that half a million more children are having their lives limited by poverty today than at the start of the decade.
 
     Do you agree that it should be the job of government to develop and deliver an ambitious and credible child-poverty reduction strategy?
-- Profile Image: "/uploads/esther-mcvey.jpg"
-  Name: Esther McVey
-  Info: Failed to Respond
-  Questions Text: |-
+- profile image: "/uploads/esther-mcvey.jpg"
+  name: Esther McVey
+  info: Failed to Respond
+  questions text: |-
     **Funding**
 
     The Institute for Fiscal Studies has calculated that total school spending per pupil has fallen by 8% in real terms between 2009–10 and 2017–18. School sixth forms have faced budget cuts of 21% per student since their peak in 2010–11, while further education and sixth-form college funding per student has fallen by about 8% over the same period.
@@ -315,10 +315,10 @@ candidates:
     New figures released by the End Child Poverty coalition show that half a million more children are having their lives limited by poverty today than at the start of the decade.
 
     Do you agree that it should be the job of government to develop and deliver an ambitious and credible child-poverty reduction strategy?
-- Profile Image: "/uploads/dominic-raab.jpg"
-  Name: Dominic Raab
-  Info: Failed to Respond
-  Questions Text: |-
+- profile image: "/uploads/dominic-raab.jpg"
+  name: Dominic Raab
+  info: Failed to Respond
+  questions text: |-
     **Funding**
 
     The Institute for Fiscal Studies has calculated that total school spending per pupil has fallen by 8% in real terms between 2009–10 and 2017–18. School sixth forms have faced budget cuts of 21% per student since their peak in 2010–11, while further education and sixth-form college funding per student has fallen by about 8% over the same period.
@@ -354,10 +354,10 @@ candidates:
     New figures released by the End Child Poverty coalition show that half a million more children are having their lives limited by poverty today than at the start of the decade.
 
     Do you agree that it should be the job of government to develop and deliver an ambitious and credible child-poverty reduction strategy?
-- Profile Image: "/uploads/rory-stewart.jpg"
-  Name: Rory Stewart
-  Info: Failed to Respond
-  Questions Text: |-
+- profile image: "/uploads/rory-stewart.jpg"
+  name: Rory Stewart
+  info: Failed to Respond
+  questions text: |-
     **Funding**
 
     The Institute for Fiscal Studies has calculated that total school spending per pupil has fallen by 8% in real terms between 2009–10 and 2017–18. School sixth forms have faced budget cuts of 21% per student since their peak in 2010–11, while further education and sixth-form college funding per student has fallen by about 8% over the same period.
