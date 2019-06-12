@@ -8,6 +8,8 @@ collections:
   uploads:
     title: Uploads
     output: true
+name: Tory Education Report Card
+markdown: kramdown
 plugins:
 - jekyll-feed
 - jekyll-sitemap
