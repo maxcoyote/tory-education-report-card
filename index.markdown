@@ -2,7 +2,7 @@
 title: Index
 date: 2019-06-12 02:28:00 Z
 candidates:
-- Profile Image: 
+- Profile Image: "/uploads/michael-gove.jpg"
   Name: Test
   Info: Test
   Questions Text: Test
