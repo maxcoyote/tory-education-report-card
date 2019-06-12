@@ -11,7 +11,7 @@ layout: default
 <div class="full-bleed full-bleed--primary">
   <div class="grid-container">
     <h1>{{ site.title }}</h1>
-    <p>{{ content }}</p>
+    {{ content }}
     <div class="share-buttons">
       <h5>Share this</h5>
       <ul>
@@ -40,6 +40,7 @@ layout: default
       </div>
     </div>
     {% endfor %}
+    {% comment %}
     <div class="candidate">
       <div class="candidate--inner">
         <img class="candidate--img" src="/assets/img/michael-gove.jpg">
@@ -194,5 +195,6 @@ layout: default
         <p><a class="overlay--close" href="#">Close</a></p>
       </div>
     </div>
+    {% endcomment %}
   </div>
 </div>
