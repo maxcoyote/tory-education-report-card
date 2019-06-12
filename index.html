@@ -27,7 +27,7 @@ title: home
     {% for candidate in page.index %}
     <div class="candidate">
       <div class="candidate--inner">
-        <img class="candidate--img" src="/assets/img/michael-gove.jpg">
+        <img class="candidate--img" src="{{ candidate.profile_image }}">
         <h4 class="candidate--name"><i class="far fa-address-card"></i> {{ candidate.name }}</h4>
         <p class="candidate--info-title">Info</p>
         <p class="candidate--info">{{ candidate.info }}</p>
