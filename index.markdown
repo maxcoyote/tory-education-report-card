@@ -2,7 +2,7 @@
 title: Index
 date: 2019-06-12 02:37:00 Z
 permalink: "/"
-Field name:
+candidates:
 - Profile Image: "/uploads/michael-gove.jpg"
   Name: Michael Gove
   Info: Info
