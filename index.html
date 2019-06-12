@@ -11,7 +11,7 @@ title: home
 <div class="full-bleed full-bleed--primary">
   <div class="grid-container">
     <h1>{{ site.title }}</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis est mi. Nullam laoreet arcu sed orci aliquet pellentesque. In congue convallis velit a porta.</p>
+    <p>{{ content }}</p>
     <div class="share-buttons">
       <h5>Share this</h5>
       <ul>
@@ -24,7 +24,7 @@ title: home
 <div class="grid-container">
   <h3 class="title title--left-bullet"><i class="far fa-arrow-alt-circle-right"></i> Candidates</h3>
   <div class="candidates">
-    {% for candidate in page.index %}
+    {% for candidate in page.candidates %}
     <div class="candidate">
       <div class="candidate--inner">
         <img class="candidate--img" src="{{ candidate.profile_image }}">
