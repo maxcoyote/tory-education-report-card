@@ -1,5 +1,5 @@
 ---
-title: Tory Education Report Card
+title: home
 layout: default
 ---
 
@@ -27,7 +27,7 @@ layout: default
     {% for candidate in page.candidates %}
     <div class="candidate">
       <div class="candidate--inner">
-        <img class="candidate--img" src="{{ candidate.profile_image }}">
+        <img class="candidate--img" src="{{ candidate.profile.image }}">
         <h4 class="candidate--name"><i class="far fa-address-card"></i> {{ candidate.name }}</h4>
         <p class="candidate--info-title">Info</p>
         <p class="candidate--info">{{ candidate.info }}</p>
