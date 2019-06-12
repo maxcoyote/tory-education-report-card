@@ -2,11 +2,11 @@
 title: Index
 date: 2019-06-12 02:37:00 Z
 permalink: "/"
-Candidates:
-- Profile Image: "/uploads/michael-gove.jpg"
-  Name: Michael Gove
-  Info: Failed to Respond
-  Questions Text: |-
+candidates:
+- profile image: "/uploads/michael-gove.jpg"
+  name: Michael Gove
+  info: Failed to Respond
+  questions text: |-
     **Funding**
 
     The Institute for Fiscal Studies has calculated that total school spending per pupil has fallen by 8% in real terms between 2009–10 and 2017–18. School sixth forms have faced budget cuts of 21% per student since their peak in 2010–11, while further education and sixth-form college funding per student has fallen by about 8% over the same period.
