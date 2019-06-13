@@ -10,6 +10,15 @@
     {% seo %}
     <script src="https://kit.fontawesome.com/b705d645aa.js"></script>
     <script src="/assets/js/jquery-3.4.1.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1767876-10"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-1767876-10');
+    </script>
   </head>
   <body class="{{ page.title | downcase }}">
     {{ content }}
