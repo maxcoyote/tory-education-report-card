@@ -396,6 +396,6 @@ candidates:
 layout: index
 ---
 
-The Conservative leadership candidates have been making wild promises on education so the National Education Union asked them a series of questions to hold them to their word.
+The Conservative leadership candidates have been making wild promises on education, so the National Education Union asked them a series of questions to hold them to their word.
 
-None of them has responded. What are they hiding on education?
+None of them have responded. What are they hiding on education?
