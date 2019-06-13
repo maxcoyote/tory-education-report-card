@@ -179,6 +179,10 @@ p {
       }
     }
     &--info-title { font-weight: bold; }
+    &--info {
+      display: block; margin: 0 auto; width: 75px; height: auto;
+      @media screen and (min-width: 40em) {  width: 150px; height: auto; }
+    }
   }
 }
 
