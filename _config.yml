@@ -1,5 +1,5 @@
 ---
-title: Tory Education Report Card
+title: Conservative Education Report
 timezone: UTC
 collections:
   posts:
@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-name: Tory Education Report Card
+name: Conservative Education Report
 markdown: kramdown
 plugins:
 - jekyll-feed
