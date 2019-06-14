@@ -1,5 +1,5 @@
 ---
-title: Index
+title: Conservative Education Report
 date: 2019-06-12 02:37:00 Z
 permalink: "/"
 candidates:
